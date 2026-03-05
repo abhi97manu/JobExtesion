@@ -35,25 +35,46 @@ const getQoutes = async () => {
   ]);
 
   //await page.waitForNavigation({ waitUntil: "networkidle2" });
-  await page.waitForSelector("article.jobTuple.bgWhite.z-depth-1");
+  //await page.waitForSelector("article.jobTuple.bgWhite.z-depth-1");
+
+ const article = await page.$("article.jobTuple.bgWhite.z-depth-1");
+
+ const [newPage] = await Promise.all([
+  new Promise((resolve) => browser.once("targetcreated", target => resolve(target.page()))),
   
-  const jobs = await page.evaluate(() => {
+  article.click(),
+]);
+  //console.log("article",article);
+  // await Promise.all([
+  // // page.waitForNavigation(),
+  //     article.click()
+  // ])
 
-    let listofJobs = [];
-    const jobElements = document.querySelectorAll(
-      "article.jobTuple.bgWhite.z-depth-1",
-    );
-        Array.from(jobElements).map( (job) => {
-           listofJobs.push({
-            title: job.querySelector("p").innerText,
-            company: job.querySelector("span.dspIB.valignM.subTitle.ellipsis.dspIB").innerHTML,
-        })
-    })
-    // const jobarticle =  jobElements[0].outerHTML;
-    console.log(listofJobs);
-  });
 
-  console.log(jobs);
+  await newPage.waitForNavigation({ waitUntil: "networkidle2" });
+
+ // await newPage.waitForSelector("button#job_header");
+  const button = await newPage.$(".styles_job-header-container___0wLZ button#apply-button");
+
+  await button.click();
+   
+  // const jobs = await page.evaluate(() => {
+
+  //   let listofJobs = [];
+  //   const jobElements = document.querySelectorAll(
+  //     "article.jobTuple.bgWhite.z-depth-1",
+  //   );
+  //       Array.from(jobElements).map( (job) => {
+  //          listofJobs.push({
+  //           title: job.querySelector("p").innerText,
+  //           company: job.querySelector("span.dspIB.valignM.subTitle.ellipsis.dspIB").innerHTML,
+  //       })
+  //   })
+  //   // const jobarticle =  jobElements[0].outerHTML;
+  //   console.log(listofJobs);
+  // });
+
+  //console.log(jobs);
 };
 
 getQoutes();
