@@ -1,0 +1,52 @@
+Job description
+Role & responsibilities
+
+
+Frontend Development
+
+React.js
+Expertlevel proficiency, Building scalable, maintainable frontend applications
+
+Backend Development
+
+Node.js
+Strong backend development experience, RESTful API design and integration
+
+Cloud & Platform
+
+Azure Web Apps •Application deployment and management •CI/CD pipeline integration •Azure SQL Database
+Database design, Query development, Performance optimization
+
+Programming Languages
+
+JavaScript / TypeScript •Deep knowledge of modern JavaScript •TypeScript usage across frontend and backend
+Architecture & Integration
+
+RESTful APIs, Microservices Architecture, Designing and consuming APIs effectively
+
+DevOps & Version Control
+
+Git & Version Control
+Branching strategies, Pull requests, Code reviews
+
+CI/CD •Azure DevOps or GitHub Actions •Automated build and deployment pipelines
+Testing
+
+Unit Testing, Integration Testing
+
+
+Good to have
+
+
+Collaboration & UX
+
+Ability to collaborate with designers •Translating UI/UX designs into highquality code
+Performance Engineering
+
+Frontend and backend performance profiling •Application performance optimization
+Security
+
+Secure coding best practices •Awareness of security considerations in cloud environments
+Monitoring & Observability
+
+Monitoring and logging experience •Azure Monitor •Application Insights •Ability to analyze application telemetry

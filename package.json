@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "@google/genai": "^1.44.0",
     "agent-base": "^7.1.4",
     "ansi-regex": "^5.0.1",
     "ansi-styles": "^4.3.0",
@@ -80,6 +81,7 @@
     "pac-resolver": "^7.0.1",
     "parent-module": "^1.0.1",
     "parse-json": "^5.2.0",
+    "pdf-parse": "^2.4.5",
     "pend": "^1.2.0",
     "picocolors": "^1.1.1",
     "picomatch": "^2.3.1",
@@ -123,7 +125,6 @@
     "yauzl": "^2.10.0",
     "zod": "^3.25.76"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"

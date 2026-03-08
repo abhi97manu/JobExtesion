@@ -1,0 +1,123 @@
+ABHISHEK KUMAR PROJECT ENGINEER | FULL STACK DEVELOPER
+
+Location: Gurugram, India Contact: +91 9915379708 Email:
+abhi3144.manu@gmail.com LinkedIn: linkedin.com/in/abhishek97kmr
+Portfolio Link: https://portfolio-abhidev.vercel.app
+
+PROFILE SUMMARY
+
+“To build cutting-edge web and game applications that merge innovation,
+performance, and user-centric design.” Dedicated Full Stack Developer
+with 4+ years of experience crafting responsive, scalable web
+applications and interactive gaming experiences. Proficient in frontend
+and backend technologies including React, Redux, Express, Node.js, and
+MongoDB, with strong expertise in UI/UX optimisation, API integration,
+and performance tuning. Adept at Agile development and collaborating
+with cross-functional teams. Hands-on experience in Unity and 3D
+programming. Developed and launched innovative digital products while
+implementing enhanced development practices to create seamless user
+experiences.
+
+ Full-Stack Web Development
+ Web UI/UX Optimisation  System Design &
+
+Microservices Architecture
+
+AREAS OF EXPERTISE
+
+ API Design & Integration
+ Applied Generative AI Integration  Database Management
+
+WORK HISTORY
+
+ Game Mechanics Design  Debugging & Performance Tuning  Agile
+Development & Cross- functional Collaboration
+
+Forgan’s | United Kingdom
+Frontend Development Intern  Designed user-centric dashboards,
+wireframes, and project architecture for structured workflows. 
+Developed responsive and user-friendly UI components using React.js,
+JavaScript, HTML5, and CSS3.  Focused on performance optimization,
+usability, and accessibility standards.  Created Detailed Project
+Reports (DPR) documenting design decisions, processes, and
+implementation. 
+
+Integrated RESTful APIs and ensured smooth data flow between frontend
+and backend.
+
+       Aug 2024 – Sep 2025 
+
+WIPRO | India
+Project Engineer  Orchestrated development of dynamic web apps with
+React, enhancing user engagement by 25%.  Engineered reusable React
+components and introduced Redux for scalable state handling. Integrated
+RESTful and SOAP APIs to streamline external service communication.  
+Diagnosed and optimized React application performance, slashing load
+time by 20%.  Streamlined backend processes with Node.js and refined
+database queries for efficiency.  Administered Linux-based application
+support, decreasing incident response by 30%  Coordinated version
+control with Git and contributed to Agile-driven project delivery.
+
+                                       Jul 2019 – Jul 2022 
+
+EDUCATION
+
+Master of Science in Game Development from Abertay University, Dundee,
+UK
+
+Sep 2022 – Sep 2023
+
+Bachelor of Technology in CSE from Chandigarh Group of Colleges,
+Mohali, India
+
+Jul 2015 – May 2019
+
+TECHNICAL SKILLS
+
+Frontend Technologies Backend & APIs Artificial Intelligence Languages
+Databases Development Tools/Practices Architecture & System Design
+3D/Game Development Operating Systems
+
+React, Redux, HTML5, CSS3, JavaScript (ES6+), Three.js, Express Node.js,
+Express.js, RESTful APIs, SOAP, JWT, OAuth2 Gen AI C++, C#, Java, SQL
+MongoDB, PostgreSQL, NoSQL Git, GitHub, Chrome DevTools, Agile
+methodologies Microservices Architecture, RESTful Design, Authentication
+& Authorization Unity 3D, Blender 3D, Three.js, DirectX3D Linux
+
+PROJECT EXPOSURE
+
+[Current] Building an Artist Portfolio Platform using MERN Stack – with
+integration of Gen AI .
+
+  Built a dynamic Weather App using React and Three.js by integrating
+real-time API data, delivering an interactive user interface. 
+Co-developed a 2D game in Unity as part of a 4-member team, contributing
+to gameplay mechanics, level design, and user
+
+engagement strategies.
+
+ Participated in multiple itch.io Game Jams, enhancing skills in rapid
+prototyping, creative problem-solving, and collaborative
+
+development under tight deadlines.
+
+ Designed and implemented “Time Traveller,” a puzzle-based grid board
+game using React and Three.js, where players solve
+
+challenges and collect artefacts to escape time.
+
+Ducat | India Nov 2025 -Current Gen AI
+
+TRAINING & CERTIFICATES
+
+ Currently training in Generative AI with focus on real-world
+implementation.  Building AI-powered web applications using LLM APIs. 
+Exploring RAG pipelines, vector search, and prompt engineering. 
+Applying Gen AI to improve automation and user interaction systems.
+
+Bharat Electronics Limited | India 2015 - 2015
+Web Development Intern  Crafted and maintained UI components using
+HTML, CSS, and JavaScript.  Enhanced responsiveness and accessibility
+across devices and platforms.
+
+
