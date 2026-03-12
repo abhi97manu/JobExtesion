@@ -1,6 +1,6 @@
-const fs = require('fs/promises')
+import fs from 'fs/promises'
 
-async function readText(filePath) {
+ async function readText(filePath) {
     try {
     const Textdata =  await fs.readFile(filePath, 'utf-8')
    
@@ -10,4 +10,4 @@ async function readText(filePath) {
     }
 }
 
-module.exports = readText;
+export default readText

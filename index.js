@@ -2,7 +2,7 @@ import puppeteer from "puppeteer";
 import dotenv from "dotenv";
 dotenv.config();
 
-const getQoutes = async () => {
+ const getQoutes = async () => {
   const browser = await puppeteer.launch({
     headless: false,
     defaultViewport: null,
@@ -55,26 +55,25 @@ const getQoutes = async () => {
 
  // await newPage.waitForSelector("button#job_header");
   const button = await newPage.$(".styles_job-header-container___0wLZ button#apply-button");
+  if(button)
+   {
+  // const [experienceLevel, location, skillset] = await Promise.all([
+  //     await newPage.$eval("div.styles_jhc__exp__k_giM span",exp=> exp.textContent  )
+     
+  // ])
+  
+   const stacks = await newPage.$eval("div.styles_key-skill__GIPn_ div" , options =>  options.outerHtml )
+   // const minYear = experienceLevel.split("").slice(0,1).reduce(el=> el)
+  console.log(stacks)
+ // await button.click();
+   }
 
-  await button.click();
-   
-  // const jobs = await page.evaluate(() => {
+   else{
+    await newPage.close()
+   }
 
-  //   let listofJobs = [];
-  //   const jobElements = document.querySelectorAll(
-  //     "article.jobTuple.bgWhite.z-depth-1",
-  //   );
-  //       Array.from(jobElements).map( (job) => {
-  //          listofJobs.push({
-  //           title: job.querySelector("p").innerText,
-  //           company: job.querySelector("span.dspIB.valignM.subTitle.ellipsis.dspIB").innerHTML,
-  //       })
-  //   })
-  //   // const jobarticle =  jobElements[0].outerHTML;
-  //   console.log(listofJobs);
-  // });
+   await page.reload()
 
-  //console.log(jobs);
 };
 
-getQoutes();
+export default getQoutes
